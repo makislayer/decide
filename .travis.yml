@@ -25,3 +25,9 @@ deploy:
   app: makislayer-travis
   strategy: git
   api_key: $HEROKU_AUTH_TOKEN
+notifications:
+  email:
+    recipients:
+      - carvidpes@alum.us.es
+    on_success: never # default: change
+    on_failure: always # default: always
