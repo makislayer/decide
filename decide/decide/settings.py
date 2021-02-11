@@ -70,7 +70,7 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'http://makislayer-travis.herokuapp.com'
+BASEURL = 'https://makislayer-travis.herokuapp.com'
 
 APIS = {
     'authentication': BASEURL,
